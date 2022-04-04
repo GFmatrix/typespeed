@@ -1,14 +1,10 @@
-@font-face {
-  font-family: "M1";
-  src: url("MPLUS1Code-Regular.ttf");
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: "M1", sans-serif;
+  font-family: 'M PLUS 1 Code', sans-serif;
   position: relative;
   background-color: #323437;
   height: 100vh;
