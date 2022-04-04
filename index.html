@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="version"><h4>beta version 1.0.0</h4></div>
+    <div class="body1"></div>
+    <div class="body2">
+      <div class="schot">
+        <h1 onclick="work=false">accuracy: <span id="acc">&nbsp;</span></h1>
+        <h1>wpm: <span id="wpm">&nbsp;</span></h1>
+        <h1>time: <span id="tme">&nbsp;</span></h1>
+      </div>
+
+      <div class="big-black"></div>
+      <div class="container">
+        <h4 id="screen2"></h4>
+        <hr class="mHR" />
+        <h4 id="screen"></h4>
+      </div>
+    </div>
+    <div class="body3" id="body3">
+      <div class="container nn">
+        <div class="res1">
+          <div class="rm">
+            <div style="color: black; font-size: 24px; border-right: 1px solid #000; width: 50%; padding-right: 0.5em">
+              <h2 style="text-align: center">ORIGINAL</h2>
+              <h4 id="r1"></h4>
+            </div>
+            <div style="color: black; font-size: 24px; border-left: 1px solid #000; width: 50%; padding-left: 0.5em">
+              <h2 style="text-align: center">TYPED</h2>
+              <h4 id="r2"></h4>
+            </div>
+          </div>
+          <div class="in2">
+            <div class="rt" style="user-select: none" onclick="document.location.reload(true)"><i class="fa-solid fa-rotate-left"></i>&nbsp;RETRY</div>
+            <div class="rt"><i class="fa-solid fa-table-cells"></i>&nbsp;MENU</div>
+          </div>
+        </div>
+        <div class="res2">
+          <div class="in1">
+            <h1>accuracy: <span id="acc2">&nbsp;</span></h1>
+            <h1>wpm: <span id="wdm2">&nbsp;</span></h1>
+            <h1>time: <span id="tme2">&nbsp;</span></h1>
+            <h1>errors: <span id="err" style="color: red">&nbsp;</span></h1>
+            <h1>letters: <span id="lett">&nbsp;</span></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app2.js"></script>
+</html>
